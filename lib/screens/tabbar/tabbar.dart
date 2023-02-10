@@ -61,11 +61,6 @@ class _NewsTabbarScreenState extends State<NewsTabbarScreen> {
   ];
 
   @override
-  void setState(VoidCallback fn) {
-    super.setState(fn);
-  }
-
-  @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return Scaffold(
